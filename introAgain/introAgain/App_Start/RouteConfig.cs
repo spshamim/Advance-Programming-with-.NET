@@ -15,8 +15,8 @@ namespace introAgain
 
             routes.MapRoute(
                 name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Course", action = "Home", id = UrlParameter.Optional }
+                url: "{controller}/{action}/{id}/{id2}/{id3}",
+                defaults: new { controller = "Course", action = "Home", id = UrlParameter.Optional, id2 = UrlParameter.Optional, id3 = UrlParameter.Optional }
             );
         }
     }
