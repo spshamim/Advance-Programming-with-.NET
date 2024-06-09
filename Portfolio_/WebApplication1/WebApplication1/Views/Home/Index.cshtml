@@ -1,0 +1,26 @@
+﻿<h1>Personal Information</h1><hr/>
+
+<table style="border-collapse: collapse;" width="100%">
+    @foreach(var item in ViewBag.Inff) {
+        <tr>
+            <td><b>Name</b></td>
+            <td>:   @item.Name</td>
+        </tr>
+        <tr>
+            <td><b>Email</b></td>
+            <td>:   @item.Email</td>
+        </tr>
+        <tr>
+            <td><b>Phone</b></td>
+            <td>:   @item.Phone</td>
+        </tr>
+        <tr>
+            <td><b>Degree</b></td>
+            <td>:   @item.Degree</td>
+        </tr>
+        <tr>
+            <td><b>Expertise</b></td>
+            <td>:   @item.Expertise</td>
+        </tr>
+    }
+</table>
