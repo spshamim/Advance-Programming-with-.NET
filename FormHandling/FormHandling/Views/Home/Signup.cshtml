@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Signup";
+    Layout = "~/Views/Shared/_BeforeLogin.cshtml";
+}
+<hr />
+<h2>Signup</h2>
+<hr />
+<form action="" method="post">
+    <input type="text" name="Name" placeholder="Name" value="@Model.Name" class="form-control" />
+    <span>@Html.ValidationMessage("Name")</span>
+    <input type="text" name="Email" placeholder="Email" value="@Model.Email" class="form-control" />
+    <span>@Html.ValidationMessage("Email")</span><br />
+    Gender:
+    <input type="radio" name="Gender" value="Male" @(Model.Gender == "Male" ? "checked" : "") />Male
+    <input type="radio" name="Gender" value="Female" @(Model.Gender == "Female" ? "checked" : "") />Female
+    <br />
+    <span>@Html.ValidationMessage("Gender")</span><br />
+    Profession:
+    <select class="form-control" name="Profession">
+        <option disabled @(Model.Profession == null ? "selected" : "")>Select</option>
+        <option @(Model.Profession == "Student" ? "selected" : "")>Student</option>
+        <option @(Model.Profession == "Business" ? "selected" : "")>Business</option>
+        <option @(Model.Profession == "Teacher" ? "selected" : "")>Teacher</option>
+    </select>
+    <span>@Html.ValidationMessage("Profession")</span><br />
+    Hobbies:
+    <input type="checkbox" value="Travelling" name="Hobbies" @(Model.Hobbies.Contains("Travelling") ? "checked" : "") />Travelling
+    <input type="checkbox" value="Sports" name="Hobbies" @(Model.Hobbies.Contains("Sports") ? "checked" : "") />Sports
+    <input type="checkbox" value="Gaming" name="Hobbies" @(Model.Hobbies.Contains("Gaming") ? "checked" : "") />Gaming
+    <br />
+    <span>@Html.ValidationMessage("Hobbies")</span><br />
+    <br />
+    <input type="submit" value="Register" class="btn btn-primary" />
+</form>
+<hr /><br />
+@if (TempData["Smg"] != null) { 
+    <span class="alert alert-danger">@TempData["Smg"]</span><br />
+}
+<br />
+

@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FormHandling\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B64903FA-5026-4F92-B58C-E32841E2C40D}|FormHandling\\FormHandling.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\formhandling\\formhandling\\models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64903FA-5026-4F92-B58C-E32841E2C40D}|FormHandling\\FormHandling.csproj|solutionrelative:formhandling\\models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64903FA-5026-4F92-B58C-E32841E2C40D}|FormHandling\\FormHandling.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\formhandling\\formhandling\\models\\attributes\\atleastoneitemattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64903FA-5026-4F92-B58C-E32841E2C40D}|FormHandling\\FormHandling.csproj|solutionrelative:formhandling\\models\\attributes\\atleastoneitemattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64903FA-5026-4F92-B58C-E32841E2C40D}|FormHandling\\FormHandling.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\formhandling\\formhandling\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B64903FA-5026-4F92-B58C-E32841E2C40D}|FormHandling\\FormHandling.csproj|solutionrelative:formhandling\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64903FA-5026-4F92-B58C-E32841E2C40D}|FormHandling\\FormHandling.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\formhandling\\formhandling\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64903FA-5026-4F92-B58C-E32841E2C40D}|FormHandling\\FormHandling.csproj|solutionrelative:formhandling\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64903FA-5026-4F92-B58C-E32841E2C40D}|FormHandling\\FormHandling.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\formhandling\\formhandling\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B64903FA-5026-4F92-B58C-E32841E2C40D}|FormHandling\\FormHandling.csproj|solutionrelative:formhandling\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64903FA-5026-4F92-B58C-E32841E2C40D}|FormHandling\\FormHandling.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\formhandling\\formhandling\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64903FA-5026-4F92-B58C-E32841E2C40D}|FormHandling\\FormHandling.csproj|solutionrelative:formhandling\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64903FA-5026-4F92-B58C-E32841E2C40D}|FormHandling\\FormHandling.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\formhandling\\formhandling\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B64903FA-5026-4F92-B58C-E32841E2C40D}|FormHandling\\FormHandling.csproj|solutionrelative:formhandling\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64903FA-5026-4F92-B58C-E32841E2C40D}|FormHandling\\FormHandling.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\formhandling\\formhandling\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B64903FA-5026-4F92-B58C-E32841E2C40D}|FormHandling\\FormHandling.csproj|solutionrelative:formhandling\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64903FA-5026-4F92-B58C-E32841E2C40D}|FormHandling\\FormHandling.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\formhandling\\formhandling\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B64903FA-5026-4F92-B58C-E32841E2C40D}|FormHandling\\FormHandling.csproj|solutionrelative:formhandling\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AtLeastOneItemAttribute.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FormHandling\\FormHandling\\Models\\Attributes\\AtLeastOneItemAttribute.cs",
+              "RelativeDocumentMoniker": "FormHandling\\Models\\Attributes\\AtLeastOneItemAttribute.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FormHandling\\FormHandling\\Models\\Attributes\\AtLeastOneItemAttribute.cs",
+              "RelativeToolTip": "FormHandling\\Models\\Attributes\\AtLeastOneItemAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T19:02:58.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FormHandling\\FormHandling\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "FormHandling\\Models\\Login.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FormHandling\\FormHandling\\Models\\Login.cs",
+              "RelativeToolTip": "FormHandling\\Models\\Login.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T18:55:18.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignUp.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FormHandling\\FormHandling\\Models\\SignUp.cs",
+              "RelativeDocumentMoniker": "FormHandling\\Models\\SignUp.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FormHandling\\FormHandling\\Models\\SignUp.cs",
+              "RelativeToolTip": "FormHandling\\Models\\SignUp.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAiwBsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T18:16:16.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FormHandling\\FormHandling\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "FormHandling\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FormHandling\\FormHandling\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "FormHandling\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T18:09:05.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Signup.cshtml",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FormHandling\\FormHandling\\Views\\Home\\Signup.cshtml",
+              "RelativeDocumentMoniker": "FormHandling\\Views\\Home\\Signup.cshtml",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FormHandling\\FormHandling\\Views\\Home\\Signup.cshtml",
+              "RelativeToolTip": "FormHandling\\Views\\Home\\Signup.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACAAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T17:13:34.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FormHandling\\FormHandling\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "FormHandling\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FormHandling\\FormHandling\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "FormHandling\\Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T17:13:26.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FormHandling\\FormHandling\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "FormHandling\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FormHandling\\FormHandling\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "FormHandling\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T17:13:19.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FormHandling\\FormHandling\\Views\\Home\\Home.cshtml",
+              "RelativeDocumentMoniker": "FormHandling\\Views\\Home\\Home.cshtml",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FormHandling\\FormHandling\\Views\\Home\\Home.cshtml",
+              "RelativeToolTip": "FormHandling\\Views\\Home\\Home.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T17:12:58.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FormHandling\\FormHandling\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FormHandling\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FormHandling\\FormHandling\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FormHandling\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAywD4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T17:07:47.497Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
