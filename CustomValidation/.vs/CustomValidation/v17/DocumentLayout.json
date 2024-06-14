@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\CustomValidation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7EAA35E-38EC-46B6-A564-74AC11A0BFEE}|CustomValidation\\CustomValidation.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\customvalidation\\customvalidation\\models\\attributes\\idemailsamecheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7EAA35E-38EC-46B6-A564-74AC11A0BFEE}|CustomValidation\\CustomValidation.csproj|solutionrelative:customvalidation\\models\\attributes\\idemailsamecheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7EAA35E-38EC-46B6-A564-74AC11A0BFEE}|CustomValidation\\CustomValidation.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\customvalidation\\customvalidation\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7EAA35E-38EC-46B6-A564-74AC11A0BFEE}|CustomValidation\\CustomValidation.csproj|solutionrelative:customvalidation\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7EAA35E-38EC-46B6-A564-74AC11A0BFEE}|CustomValidation\\CustomValidation.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\customvalidation\\customvalidation\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7EAA35E-38EC-46B6-A564-74AC11A0BFEE}|CustomValidation\\CustomValidation.csproj|solutionrelative:customvalidation\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7EAA35E-38EC-46B6-A564-74AC11A0BFEE}|CustomValidation\\CustomValidation.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\customvalidation\\customvalidation\\models\\attributes\\atleastoneitemattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7EAA35E-38EC-46B6-A564-74AC11A0BFEE}|CustomValidation\\CustomValidation.csproj|solutionrelative:customvalidation\\models\\attributes\\atleastoneitemattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7EAA35E-38EC-46B6-A564-74AC11A0BFEE}|CustomValidation\\CustomValidation.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\customvalidation\\customvalidation\\models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7EAA35E-38EC-46B6-A564-74AC11A0BFEE}|CustomValidation\\CustomValidation.csproj|solutionrelative:customvalidation\\models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7EAA35E-38EC-46B6-A564-74AC11A0BFEE}|CustomValidation\\CustomValidation.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\customvalidation\\customvalidation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7EAA35E-38EC-46B6-A564-74AC11A0BFEE}|CustomValidation\\CustomValidation.csproj|solutionrelative:customvalidation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7EAA35E-38EC-46B6-A564-74AC11A0BFEE}|CustomValidation\\CustomValidation.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\customvalidation\\customvalidation\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7EAA35E-38EC-46B6-A564-74AC11A0BFEE}|CustomValidation\\CustomValidation.csproj|solutionrelative:customvalidation\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IdEmailSameCheck.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\CustomValidation\\CustomValidation\\Models\\Attributes\\IdEmailSameCheck.cs",
+              "RelativeDocumentMoniker": "CustomValidation\\Models\\Attributes\\IdEmailSameCheck.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\CustomValidation\\CustomValidation\\Models\\Attributes\\IdEmailSameCheck.cs",
+              "RelativeToolTip": "CustomValidation\\Models\\Attributes\\IdEmailSameCheck.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAACCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T07:02:40.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Signup.cshtml",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\CustomValidation\\CustomValidation\\Views\\Home\\Signup.cshtml",
+              "RelativeDocumentMoniker": "CustomValidation\\Views\\Home\\Signup.cshtml",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\CustomValidation\\CustomValidation\\Views\\Home\\Signup.cshtml",
+              "RelativeToolTip": "CustomValidation\\Views\\Home\\Signup.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T06:58:15.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\CustomValidation\\CustomValidation\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "CustomValidation\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\CustomValidation\\CustomValidation\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "CustomValidation\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA4wAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T06:56:55.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\CustomValidation\\CustomValidation\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CustomValidation\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\CustomValidation\\CustomValidation\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CustomValidation\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAYwAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T06:54:32.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AtLeastOneItemAttribute.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\CustomValidation\\CustomValidation\\Models\\Attributes\\AtLeastOneItemAttribute.cs",
+              "RelativeDocumentMoniker": "CustomValidation\\Models\\Attributes\\AtLeastOneItemAttribute.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\CustomValidation\\CustomValidation\\Models\\Attributes\\AtLeastOneItemAttribute.cs",
+              "RelativeToolTip": "CustomValidation\\Models\\Attributes\\AtLeastOneItemAttribute.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T06:48:34.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SignUp.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\CustomValidation\\CustomValidation\\Models\\SignUp.cs",
+              "RelativeDocumentMoniker": "CustomValidation\\Models\\SignUp.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\CustomValidation\\CustomValidation\\Models\\SignUp.cs",
+              "RelativeToolTip": "CustomValidation\\Models\\SignUp.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAiwBIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T06:47:00.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\CustomValidation\\CustomValidation\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "CustomValidation\\Models\\Login.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\CustomValidation\\CustomValidation\\Models\\Login.cs",
+              "RelativeToolTip": "CustomValidation\\Models\\Login.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T06:45:48.028Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

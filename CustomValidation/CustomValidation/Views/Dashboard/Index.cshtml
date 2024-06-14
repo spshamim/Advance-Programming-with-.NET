@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AfterLogin.cshtml";
+}
+
+<h2>Index</h2>
+<hr />
+<br />
+@if (TempData["Msg2"] != null)
+{
+    <span class="alert alert-success">@TempData["Msg2"]</span>
+}
+
+
