@@ -1,0 +1,59 @@
+﻿@model WebApplication1.DTOs.StudentDTO
+
+<form action="/Student/Create" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>StudentDTO</h4>
+        <hr />
+        <div class="form-group">
+            <label class="control-label col-md-2" for="First_Name">First Name</label>
+            <div class="col-md-10">
+                <input class="form-control" id="First_Name" name="First_Name" type="text" value="" />
+                <span class="text-danger">@Html.ValidationMessageFor(model => model.First_Name)</span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="Last_Name">Last Name</label>
+            <div class="col-md-10">
+                <input class="form-control" id="Last_Name" name="Last_Name" type="text" value="" />
+                <span class="text-danger">@Html.ValidationMessageFor(model => model.Last_Name)</span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="Email">Email</label>
+            <div class="col-md-10">
+                <input class="form-control" id="Email" name="Email" type="text" value="" />
+                <span class="text-danger">@Html.ValidationMessageFor(model => model.Email)</span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="Phone">Phone</label>
+            <div class="col-md-10">
+                <input class="form-control" id="Phone" name="Phone" type="text" value="" />
+                <span class="text-danger">@Html.ValidationMessageFor(model => model.Phone)</span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="Address">Address</label>
+            <div class="col-md-10">
+                <input class="form-control" id="Address" name="Address" type="text" value="" />
+                <span class="text-danger">@Html.ValidationMessageFor(model => model.Address)</span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div class="col-md-4">
+    <a href="/Student/Index">Back to List</a>
+</div>
