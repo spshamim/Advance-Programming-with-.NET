@@ -1,25 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\spssh\\OneDrive\\Desktop\\uuu\\WebApplication1\\",
+  "WorkspaceRootPath": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\Entity Framework\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{198890DB-8A86-4E4C-AD9F-9A3595071CDB}|WebApplication1\\WebApplication1.csproj|C:\\Users\\spssh\\OneDrive\\Desktop\\uuu\\WebApplication1\\webapplication1\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{198890DB-8A86-4E4C-AD9F-9A3595071CDB}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198890DB-8A86-4E4C-AD9F-9A3595071CDB}|WebApplication1\\WebApplication1.csproj|c:\\users\\spssh\\onedrive\\desktop\\uuu\\webapplication1\\webapplication1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{198890DB-8A86-4E4C-AD9F-9A3595071CDB}|WebApplication1\\WebApplication1.csproj|D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\Entity Framework\\WebApplication1\\webapplication1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{198890DB-8A86-4E4C-AD9F-9A3595071CDB}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{198890DB-8A86-4E4C-AD9F-9A3595071CDB}|WebApplication1\\WebApplication1.csproj|C:\\Users\\spssh\\OneDrive\\Desktop\\uuu\\WebApplication1\\webapplication1\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{198890DB-8A86-4E4C-AD9F-9A3595071CDB}|WebApplication1\\WebApplication1.csproj|D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\Entity Framework\\WebApplication1\\webapplication1\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{198890DB-8A86-4E4C-AD9F-9A3595071CDB}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{198890DB-8A86-4E4C-AD9F-9A3595071CDB}|WebApplication1\\WebApplication1.csproj|c:\\users\\spssh\\onedrive\\desktop\\uuu\\webapplication1\\webapplication1\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{198890DB-8A86-4E4C-AD9F-9A3595071CDB}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{198890DB-8A86-4E4C-AD9F-9A3595071CDB}|WebApplication1\\WebApplication1.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\advance-programming-with-.net\\entity framework\\webapplication1\\webapplication1\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{198890DB-8A86-4E4C-AD9F-9A3595071CDB}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{198890DB-8A86-4E4C-AD9F-9A3595071CDB}|WebApplication1\\WebApplication1.csproj|C:\\Users\\spssh\\OneDrive\\Desktop\\uuu\\WebApplication1\\webapplication1\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{198890DB-8A86-4E4C-AD9F-9A3595071CDB}|WebApplication1\\WebApplication1.csproj|D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\Entity Framework\\WebApplication1\\webapplication1\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{198890DB-8A86-4E4C-AD9F-9A3595071CDB}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -30,28 +26,15 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "StudentDTO.cs",
-              "DocumentMoniker": "C:\\Users\\spssh\\OneDrive\\Desktop\\uuu\\WebApplication1\\WebApplication1\\DTOs\\StudentDTO.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\DTOs\\StudentDTO.cs",
-              "ToolTip": "C:\\Users\\spssh\\OneDrive\\Desktop\\uuu\\WebApplication1\\WebApplication1\\DTOs\\StudentDTO.cs",
-              "RelativeToolTip": "WebApplication1\\DTOs\\StudentDTO.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAiwBQAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T21:09:28.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\spssh\\OneDrive\\Desktop\\uuu\\WebApplication1\\WebApplication1\\Views\\Student\\Edit.cshtml",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\Entity Framework\\WebApplication1\\WebApplication1\\Views\\Student\\Edit.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Student\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\spssh\\OneDrive\\Desktop\\uuu\\WebApplication1\\WebApplication1\\Views\\Student\\Edit.cshtml",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\Entity Framework\\WebApplication1\\WebApplication1\\Views\\Student\\Edit.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Student\\Edit.cshtml",
               "ViewState": "AQIAACEAAAAAAAAAAAAAAAsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -59,39 +42,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\spssh\\OneDrive\\Desktop\\uuu\\WebApplication1\\WebApplication1\\Views\\Student\\Create.cshtml",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\Entity Framework\\WebApplication1\\WebApplication1\\Views\\Student\\Create.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Student\\Create.cshtml",
-              "ToolTip": "C:\\Users\\spssh\\OneDrive\\Desktop\\uuu\\WebApplication1\\WebApplication1\\Views\\Student\\Create.cshtml",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\Entity Framework\\WebApplication1\\WebApplication1\\Views\\Student\\Create.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Student\\Create.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAADsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-22T16:36:25.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\spssh\\OneDrive\\Desktop\\uuu\\WebApplication1\\WebApplication1\\Views\\Student\\Index.cshtml",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\Entity Framework\\WebApplication1\\WebApplication1\\Views\\Student\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Student\\Index.cshtml",
-              "ToolTip": "C:\\Users\\spssh\\OneDrive\\Desktop\\uuu\\WebApplication1\\WebApplication1\\Views\\Student\\Index.cshtml",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\Entity Framework\\WebApplication1\\WebApplication1\\Views\\Student\\Index.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Student\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABkAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-22T16:23:32.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\spssh\\OneDrive\\Desktop\\uuu\\WebApplication1\\WebApplication1\\Controllers\\StudentController.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\Entity Framework\\WebApplication1\\WebApplication1\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\spssh\\OneDrive\\Desktop\\uuu\\WebApplication1\\WebApplication1\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\Entity Framework\\WebApplication1\\WebApplication1\\Controllers\\StudentController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\StudentController.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAowCwAAAAZAAAA",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAiwFUAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-22T16:21:24.459Z",
               "EditorCaption": ""

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\spssh\\OneDrive\\Desktop\\Task\\EFLabTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B22C67E-AA85-4441-AC92-179E7E326957}|EFLabTask\\EFLabTask.csproj|c:\\users\\spssh\\onedrive\\desktop\\task\\eflabtask\\eflabtask\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B22C67E-AA85-4441-AC92-179E7E326957}|EFLabTask\\EFLabTask.csproj|solutionrelative:eflabtask\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B22C67E-AA85-4441-AC92-179E7E326957}|EFLabTask\\EFLabTask.csproj|c:\\users\\spssh\\onedrive\\desktop\\task\\eflabtask\\eflabtask\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B22C67E-AA85-4441-AC92-179E7E326957}|EFLabTask\\EFLabTask.csproj|solutionrelative:eflabtask\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B22C67E-AA85-4441-AC92-179E7E326957}|EFLabTask\\EFLabTask.csproj|c:\\users\\spssh\\onedrive\\desktop\\task\\eflabtask\\eflabtask\\views\\course\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B22C67E-AA85-4441-AC92-179E7E326957}|EFLabTask\\EFLabTask.csproj|solutionrelative:eflabtask\\views\\course\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B22C67E-AA85-4441-AC92-179E7E326957}|EFLabTask\\EFLabTask.csproj|c:\\users\\spssh\\onedrive\\desktop\\task\\eflabtask\\eflabtask\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B22C67E-AA85-4441-AC92-179E7E326957}|EFLabTask\\EFLabTask.csproj|solutionrelative:eflabtask\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B22C67E-AA85-4441-AC92-179E7E326957}|EFLabTask\\EFLabTask.csproj|c:\\users\\spssh\\onedrive\\desktop\\task\\eflabtask\\eflabtask\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B22C67E-AA85-4441-AC92-179E7E326957}|EFLabTask\\EFLabTask.csproj|solutionrelative:eflabtask\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B22C67E-AA85-4441-AC92-179E7E326957}|EFLabTask\\EFLabTask.csproj|c:\\users\\spssh\\onedrive\\desktop\\task\\eflabtask\\eflabtask\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B22C67E-AA85-4441-AC92-179E7E326957}|EFLabTask\\EFLabTask.csproj|solutionrelative:eflabtask\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\spssh\\OneDrive\\Desktop\\Task\\EFLabTask\\EFLabTask\\Views\\Course\\Details.cshtml",
+              "RelativeDocumentMoniker": "EFLabTask\\Views\\Course\\Details.cshtml",
+              "ToolTip": "C:\\Users\\spssh\\OneDrive\\Desktop\\Task\\EFLabTask\\EFLabTask\\Views\\Course\\Details.cshtml",
+              "RelativeToolTip": "EFLabTask\\Views\\Course\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T08:20:08.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\spssh\\OneDrive\\Desktop\\Task\\EFLabTask\\EFLabTask\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "EFLabTask\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\spssh\\OneDrive\\Desktop\\Task\\EFLabTask\\EFLabTask\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "EFLabTask\\Controllers\\CourseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T08:15:12.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\spssh\\OneDrive\\Desktop\\Task\\EFLabTask\\EFLabTask\\Views\\Course\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EFLabTask\\Views\\Course\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\spssh\\OneDrive\\Desktop\\Task\\EFLabTask\\EFLabTask\\Views\\Course\\Edit.cshtml",
+              "RelativeToolTip": "EFLabTask\\Views\\Course\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T07:15:00.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\spssh\\OneDrive\\Desktop\\Task\\EFLabTask\\EFLabTask\\Views\\Course\\Create.cshtml",
+              "RelativeDocumentMoniker": "EFLabTask\\Views\\Course\\Create.cshtml",
+              "ToolTip": "C:\\Users\\spssh\\OneDrive\\Desktop\\Task\\EFLabTask\\EFLabTask\\Views\\Course\\Create.cshtml",
+              "RelativeToolTip": "EFLabTask\\Views\\Course\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T07:05:04.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\spssh\\OneDrive\\Desktop\\Task\\EFLabTask\\EFLabTask\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "EFLabTask\\Views\\Course\\Index.cshtml",
+              "ToolTip": "C:\\Users\\spssh\\OneDrive\\Desktop\\Task\\EFLabTask\\EFLabTask\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "EFLabTask\\Views\\Course\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC4AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T07:04:52.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\spssh\\OneDrive\\Desktop\\Task\\EFLabTask\\EFLabTask\\DTOs\\CourseDTO.cs",
+              "RelativeDocumentMoniker": "EFLabTask\\DTOs\\CourseDTO.cs",
+              "ToolTip": "C:\\Users\\spssh\\OneDrive\\Desktop\\Task\\EFLabTask\\EFLabTask\\DTOs\\CourseDTO.cs",
+              "RelativeToolTip": "EFLabTask\\DTOs\\CourseDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAIwBEAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T06:58:55.035Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

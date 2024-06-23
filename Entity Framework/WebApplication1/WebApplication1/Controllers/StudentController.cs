@@ -15,7 +15,8 @@ namespace WebApplication1.Controllers
         public ActionResult Index()
         {
             var data = db.Students.ToList();
-            return View(data);
+            var converted = Convert(data);
+            return View(converted);
         }
 
         [HttpGet]
@@ -31,7 +32,7 @@ namespace WebApplication1.Controllers
             {
                 var st = new Student()
                 {
-                    Name = s.First_Name.Trim() + " " + s.Last_Name.Trim(),
+                    Name = s.First_Name.Trim() + " " + s.Last_Name.Trim(), // trim leading or tailing space
                     Email = s.Email,
                     Phone = s.Phone,
                     Address = s.Address
@@ -86,7 +87,42 @@ namespace WebApplication1.Controllers
 
             //using same view for multiple puposes
 
-            return View("Index", data); // again showing the Index view with the data Model
+            return View("Index", Convert(data)); // again showing the Index view with the data Model
+        }
+
+        public static StudentDTO Convert(Student s)
+        {
+            var name = s.Name.Split(' ');
+            return new StudentDTO()
+            {
+                First_Name = name[0],
+                Last_Name = name[1],
+                Address = s.Address,
+                Email = s.Email,
+                Id = s.Id
+            };
+        }
+
+        public static Student Convert(StudentDTO s)
+        {
+            return new Student()
+            {
+                Name = s.First_Name.Trim() + " " + s.Last_Name.Trim(),
+                Address = s.Address,
+                Email = s.Email,
+                Id = s.Id
+            };
+        }
+
+        public static List<StudentDTO> Convert(List<Student> students)
+        {
+            var list = new List<StudentDTO>();
+            foreach (var s in students)
+            {
+                var st = Convert(s);
+                list.Add(st);
+            }
+            return list;
         }
 
     }
