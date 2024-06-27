@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit Category</h2>
+
+<form method="post">
+    <input type="text" name="Name" value="@Model.Name" class="form-control" />
+    <span class="text-danger">@Html.ValidationMessage("Name")</span>
+    <br />
+    <input type="submit" value="Save" class="btn btn-success" />
+</form>
+

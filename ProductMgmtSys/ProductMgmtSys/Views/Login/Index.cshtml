@@ -1,0 +1,33 @@
+﻿<h2>Login</h2>
+<hr />
+
+
+@if (TempData["Msg"] != null)
+{
+    <div class="alert alert-danger" role="alert">@TempData["Msg"]</div>
+}
+@if (TempData["Msg2"] != null)
+{
+    <div class="alert alert-info" role="alert">@TempData["Msg2"]</div>
+}
+
+
+<form method="post">
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <div class="input-group-text" id="btnGroupAddon">User Name</div>
+        </div>
+        <input type="text" class="form-control" name="Uname" value="@Model.Uname" placeholder="Type User name" aria-label="Input group example" aria-describedby="btnGroupAddon">
+    </div>
+    <span class="text-danger">@Html.ValidationMessage("Uname")</span>
+    <br />
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <div class="input-group-text" id="btnGroupAddon">Passowrd&nbsp;&nbsp;&nbsp;</div>
+        </div>
+        <input type="password" class="form-control" name="Password" placeholder="Type Password" aria-label="Input group example" aria-describedby="btnGroupAddon">
+    </div>
+    <span class="text-danger">@Html.ValidationMessage("Password")</span>
+    <br />
+    <input type="submit" value="Login" class="btn btn-success" />
+</form>

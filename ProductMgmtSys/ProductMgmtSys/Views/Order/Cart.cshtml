@@ -1,0 +1,54 @@
+﻿@model IEnumerable<ProductMgmtSys.DTOs.ProductDTO>
+
+@{
+    ViewBag.Title = "Cart";
+}
+
+<br />
+<h2>Cart</h2>
+<br />
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Qty)
+        </th>
+        <th>
+            Unit Price
+        </th>
+    </tr>
+    @{ decimal totalamount = 0; }
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Qty)
+            </td>
+            <td>
+                @{
+                    totalamount += item.Qty * item.Price;
+                    Session["tt"] = totalamount;
+                }
+                @item.Qty <span>✗</span> @item.Price = @(item.Qty * item.Price)
+            </td>
+        </tr>
+    }
+    <tr>
+        <td></td>
+        <td></td>
+        <td><strong>Total = </strong></td>
+        <td><strong>@totalamount</strong></td>
+    </tr>
+</table>
+<a href="/Order/placeorder" class="btn btn-primary">Place Order</a>

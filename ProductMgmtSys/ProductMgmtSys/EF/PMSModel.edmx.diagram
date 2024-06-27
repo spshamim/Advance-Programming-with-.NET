@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="79d47224001c4c6a91ed86d13be38a1f" Name="Diagram1">
+        <EntityTypeShape EntityType="PMSModel.Category" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.OrderProduct" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.Order" Width="1.5" PointX="7.625" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="PMSModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_OrderProducts_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_OrderProducts_Products" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="PMSModel.User" Width="1.5" PointX="10.125" PointY="1.5" />
+        <AssociationConnector Association="PMSModel.FK_Orders_Users" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
