@@ -39,9 +39,11 @@
                 @Html.DisplayFor(modelItem => item.Qty)
             </td>
             <td>
-                <a href="/Order/addtocart/@item.Id" class="btn btn-primary">Add to Cart</a>
+                <a href="/Order/addtocart/@item.Id" class="btn btn-primary" style="border-radius:13px;height:20px; width:115px; padding-bottom:31px;">Add to Cart</a>
             </td>
         </tr>
     }
 
 </table>
+
+<a href="/Customer/Index" class="btn btn-outline-secondary">Back</a>

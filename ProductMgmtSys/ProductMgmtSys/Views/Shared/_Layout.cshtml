@@ -26,12 +26,17 @@
                         var user = (ProductMgmtSys.EF.User)Session["user"];
                         if (user.Type.Equals("Admin"))
                         {
+                            <li>@Html.ActionLink("Dashboard", "Index", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
                             <li>@Html.ActionLink("Category", "Index", "Category", new { area = "" }, new { @class = "nav-link" })</li>
+                            <li>@Html.ActionLink("Orders", "Orders", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
+                            <li>@Html.ActionLink("Customers", "Customers", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
                         }
                         else if (user.Type.Equals("Customer"))
                         {
-                            <li>@Html.ActionLink("Product", "Index", "Order", new { area = "" }, new { @class = "nav-link" })</li>
+                            <li>@Html.ActionLink("Dashboard", "Index", "Customer", new { area = "" }, new { @class = "nav-link" })</li>
+                            <li>@Html.ActionLink("Products", "Index", "Order", new { area = "" }, new { @class = "nav-link" })</li>
                             <li>@Html.ActionLink("Cart", "Cart", "Order", new { area = "" }, new { @class = "nav-link" })</li>
+                            <li>@Html.ActionLink("Orders", "Orders", "Customer", new { area = "" }, new { @class = "nav-link" })</li>
                         }
                         <li>@Html.ActionLink("Logout", "Logout", "Login", new { area = "" }, new { @class = "nav-link" })</li>
                     }

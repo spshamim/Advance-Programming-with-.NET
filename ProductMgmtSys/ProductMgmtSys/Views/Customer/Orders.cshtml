@@ -1,0 +1,82 @@
+﻿@model IEnumerable<ProductMgmtSys.DTOs.OrderDTO>
+
+@{
+    ViewBag.Title = "Orders";
+}
+
+@if (TempData["Msg3"] != null)
+{
+    <div class="alert alert-danger" role="alert">@TempData["Msg3"]</div>
+}
+
+<h2>Orders</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalAmount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OrderDate)
+        </th>
+        <th>
+            Action
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @if (item.Status.Equals("Declined") || item.Status.Equals("Canceled"))
+                {
+                    <span class="badge badge-danger" style="border-radius:14px;background-color: red; color: white; width: 80px; height: 30px;padding-top:8px;">
+                        @item.Status
+                    </span>
+                }
+                else if (item.Status.Equals("Accepted"))
+                {
+                    <span class="badge badge-primary" style="border-radius:14px;background-color: blue; color: white; width: 80px; height: 30px;padding-top:8px;">
+                        @item.Status
+                    </span>
+                }
+                else if (item.Status.Equals("Processing"))
+                {
+                    <span class="badge badge-success" style="border-radius:14px;background-color: green; color: white; width: 80px; height: 30px;padding-top:8px;">
+                        @item.Status
+                    </span>
+                }
+                else
+                {
+                    <span class="badge badge-warning" style="border-radius: 14px; background-color: blueviolet; color: white; width: 80px; height: 30px; padding-top: 8px;">
+                        @item.Status
+                    </span>
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalAmount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderDate)
+            </td>
+            <td>
+                @if (item.Status.Equals("Ordered"))
+                {
+                    <a href="/Customer/Cancel/@item.Id" class="btn btn-danger" style="border-radius:13px;height:20px; width:80px; padding-bottom:31px;">Cancel</a>
+                }
+            </td>
+        </tr>
+    }
+
+</table>
+
+<a href="/Customer/Index" class="btn btn-outline-secondary">Back</a>

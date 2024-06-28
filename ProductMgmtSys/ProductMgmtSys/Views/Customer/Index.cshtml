@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+@if (TempData["Msg"] != null)
+{
+    <div class="alert alert-primary" role="alert">@TempData["Msg"]</div>
+}
+
+<h2>Customer Dashboard</h2>
+<hr />
+
+<a href="/Order/Index" class="btn btn-outline-primary">Products</a>
+<a href="/Order/Cart" class="btn btn-outline-primary">Cart</a>
+<a href="/Customer/Orders" class="btn btn-outline-primary">Orders</a>

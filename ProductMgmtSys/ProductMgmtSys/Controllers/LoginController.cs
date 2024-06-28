@@ -42,7 +42,7 @@ namespace ProductMgmtSys.Controllers
                     {
                         Session["user"] = data;
                         TempData["Msg"] = "Login Successfull...";
-                        return RedirectToAction("Index", "Order");
+                        return RedirectToAction("Index", "Customer");
                     }
                     else
                     {
@@ -57,6 +57,11 @@ namespace ProductMgmtSys.Controllers
 
         public ActionResult Logout()
         {
+            if (((User)Session["user"]).Type.Equals("Customer"))
+            {
+                Session["cart"] = null;
+            }
+
             Session["user"] = null;
             TempData["Msg2"] = "Logout Successfull...";
             return RedirectToAction("Index");

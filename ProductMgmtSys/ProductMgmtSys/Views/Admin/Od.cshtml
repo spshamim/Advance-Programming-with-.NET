@@ -1,0 +1,46 @@
+﻿@model IEnumerable<ProductMgmtSys.DTOs.OrderProductDTO>
+
+@{
+    ViewBag.Title = "Od";
+}
+
+<h2>Ordered Products</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Product Name
+        </th>
+        <th>
+            Order ID
+        </th>
+        <th>
+            Ordered Quantity 
+        </th>
+        <th>
+            Unit Price
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Product.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Qty)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UnitPrice)
+        </td>
+    </tr>
+}
+
+</table>
+
+<a href="/Admin/Approve/@Model.FirstOrDefault().OId" class="btn btn-success">Accept</a>
+<a href="/Admin/Decline/@Model.FirstOrDefault().OId" class="btn btn-danger">Decline</a>
+<a href="/Admin/Orders" class="btn btn-outline-secondary">Back</a>
