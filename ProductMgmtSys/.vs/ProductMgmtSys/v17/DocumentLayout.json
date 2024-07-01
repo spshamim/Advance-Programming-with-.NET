@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\ProductMgmtSys\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48BD7003-68CC-4547-99BA-91276FD07425}|ProductMgmtSys\\ProductMgmtSys.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\advance-programming-with-.net\\productmgmtsys\\productmgmtsys\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48BD7003-68CC-4547-99BA-91276FD07425}|ProductMgmtSys\\ProductMgmtSys.csproj|solutionrelative:productmgmtsys\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48BD7003-68CC-4547-99BA-91276FD07425}|ProductMgmtSys\\ProductMgmtSys.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\advance-programming-with-.net\\productmgmtsys\\productmgmtsys\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48BD7003-68CC-4547-99BA-91276FD07425}|ProductMgmtSys\\ProductMgmtSys.csproj|solutionrelative:productmgmtsys\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48BD7003-68CC-4547-99BA-91276FD07425}|ProductMgmtSys\\ProductMgmtSys.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\advance-programming-with-.net\\productmgmtsys\\productmgmtsys\\views\\customer\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48BD7003-68CC-4547-99BA-91276FD07425}|ProductMgmtSys\\ProductMgmtSys.csproj|solutionrelative:productmgmtsys\\views\\customer\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{48BD7003-68CC-4547-99BA-91276FD07425}|ProductMgmtSys\\ProductMgmtSys.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\advance-programming-with-.net\\productmgmtsys\\productmgmtsys\\dtos\\orderproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48BD7003-68CC-4547-99BA-91276FD07425}|ProductMgmtSys\\ProductMgmtSys.csproj|solutionrelative:productmgmtsys\\dtos\\orderproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48BD7003-68CC-4547-99BA-91276FD07425}|ProductMgmtSys\\ProductMgmtSys.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\advance-programming-with-.net\\productmgmtsys\\productmgmtsys\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48BD7003-68CC-4547-99BA-91276FD07425}|ProductMgmtSys\\ProductMgmtSys.csproj|solutionrelative:productmgmtsys\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{48BD7003-68CC-4547-99BA-91276FD07425}|ProductMgmtSys\\ProductMgmtSys.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\advance-programming-with-.net\\productmgmtsys\\productmgmtsys\\ef\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48BD7003-68CC-4547-99BA-91276FD07425}|ProductMgmtSys\\ProductMgmtSys.csproj|solutionrelative:productmgmtsys\\ef\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48BD7003-68CC-4547-99BA-91276FD07425}|ProductMgmtSys\\ProductMgmtSys.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\advance-programming-with-.net\\productmgmtsys\\productmgmtsys\\ef\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48BD7003-68CC-4547-99BA-91276FD07425}|ProductMgmtSys\\ProductMgmtSys.csproj|solutionrelative:productmgmtsys\\ef\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\ProductMgmtSys\\ProductMgmtSys\\Views\\Order\\Index.cshtml",
-              "RelativeDocumentMoniker": "ProductMgmtSys\\Views\\Order\\Index.cshtml",
-              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\ProductMgmtSys\\ProductMgmtSys\\Views\\Order\\Index.cshtml",
-              "RelativeToolTip": "ProductMgmtSys\\Views\\Order\\Index.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAACkAAAB8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-28T14:46:12.027Z",
+              "Title": "OrderProduct.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\ProductMgmtSys\\ProductMgmtSys\\EF\\OrderProduct.cs",
+              "RelativeDocumentMoniker": "ProductMgmtSys\\EF\\OrderProduct.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\ProductMgmtSys\\ProductMgmtSys\\EF\\OrderProduct.cs",
+              "RelativeToolTip": "ProductMgmtSys\\EF\\OrderProduct.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T09:07:28.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Orders.cshtml",
-              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\ProductMgmtSys\\ProductMgmtSys\\Views\\Customer\\Orders.cshtml",
-              "RelativeDocumentMoniker": "ProductMgmtSys\\Views\\Customer\\Orders.cshtml",
-              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\ProductMgmtSys\\ProductMgmtSys\\Views\\Customer\\Orders.cshtml",
-              "RelativeToolTip": "ProductMgmtSys\\Views\\Customer\\Orders.cshtml",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAiwEkAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-28T14:23:50.843Z",
+              "Title": "OrderProductDTO.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\ProductMgmtSys\\ProductMgmtSys\\DTOs\\OrderProductDTO.cs",
+              "RelativeDocumentMoniker": "ProductMgmtSys\\DTOs\\OrderProductDTO.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\ProductMgmtSys\\ProductMgmtSys\\DTOs\\OrderProductDTO.cs",
+              "RelativeToolTip": "ProductMgmtSys\\DTOs\\OrderProductDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T09:03:01.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\ProductMgmtSys\\ProductMgmtSys\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "ProductMgmtSys\\Controllers\\CustomerController.cs",
-              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\ProductMgmtSys\\ProductMgmtSys\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "ProductMgmtSys\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAIwCkAAAAiAAAA",
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\ProductMgmtSys\\ProductMgmtSys\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ProductMgmtSys\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\ProductMgmtSys\\ProductMgmtSys\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ProductMgmtSys\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAYwGgAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T13:08:38.058Z",
+              "WhenOpened": "2024-07-01T08:37:02.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\ProductMgmtSys\\ProductMgmtSys\\EF\\Order.cs",
+              "RelativeDocumentMoniker": "ProductMgmtSys\\EF\\Order.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Advance-Programming-with-.NET\\ProductMgmtSys\\ProductMgmtSys\\EF\\Order.cs",
+              "RelativeToolTip": "ProductMgmtSys\\EF\\Order.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAIBAwBsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T08:43:51.272Z",
               "EditorCaption": ""
             }
           ]
