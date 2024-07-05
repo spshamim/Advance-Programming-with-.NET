@@ -1,0 +1,12 @@
+﻿@{
+    Layout = "~/Views/Shared/_BlogDashboard.cshtml";
+    ViewBag.Title = "Dashboard";
+}
+
+@if (TempData["Msg"] != null)
+{
+    <div class="alert alert-primary" role="alert">@TempData["Msg"]</div>
+}
+
+<h2>Blogs Dashboard</h2>
+<hr />

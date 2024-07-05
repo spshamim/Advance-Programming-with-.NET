@@ -1,0 +1,115 @@
+﻿@{
+    Layout = "~/Views/Shared/_BlogDashboard.cshtml";
+    ViewBag.Title = "Profile";
+}
+
+<style>
+    .profile-form {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        align-items: start;
+    }
+
+    .image-container {
+        grid-column: 1 / 4;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 38%;
+        margin-bottom: 10px;
+    }
+
+    .profile-image {
+        width: 170px;
+        height: 230px;
+        object-fit: cover;
+        border-radius: 10%;
+    }
+
+    .profile-form .form-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile-form label {
+        margin-bottom: 5px;
+    }
+
+    .profile-form input {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .button-container {
+        grid-column: 2 / 3;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .update-button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+</style>
+
+@if (TempData["Msg5"] != null)
+{
+    <div class="alert alert-success" role="alert">@TempData["Msg5"]</div>
+}
+
+@if (TempData["Msg4"] != null)
+{
+    <div class="alert alert-danger" role="alert">@TempData["Msg4"]</div>
+}
+
+<h2>Profile</h2>
+<hr />
+<form method="post" class="profile-form" enctype="multipart/form-data">
+    <div class="image-container">
+        <img src="~/Resources/Profile/@(Model.img_name ?? "img.png")" alt="Profile Image" class="profile-image">
+    </div>
+    <div class="form-group">
+        <label for="validationDefault01">Profile Id</label>
+        <input type="text" id="validationDefault01" name="profile_id" value="@Model.profile_id" disabled>
+    </div>
+    <div class="form-group">
+        <label for="validationDefault02">User Id</label>
+        <input type="text" id="validationDefault02" name="user_id" value="@Model.user_id" disabled>
+    </div>
+    <div class="form-group">
+        <label for="validationDefault03">Full Name</label>
+        <input type="text" id="validationDefault03" name="fullname" value="@Model.fullname">
+    </div>
+    <div class="form-group">
+        <label for="validationDefault04">Address</label>
+        <input type="text" id="validationDefault04" name="address" value="@Model.address">
+    </div>
+    <div class="form-group">
+        <label for="validationDefault05">Phone</label>
+        <input type="text" id="validationDefault05" name="phone" value="@Model.phone">
+    </div>
+    <div class="form-group">
+        <label for="validationDefault06">Social Link</label>
+        <input type="text" id="validationDefault06" name="social_link" value="@Model.social_link">
+    </div>
+    <div class="form-group">
+        <label for="validationDefault07">Education</label>
+        <input type="text" id="validationDefault07" name="education" value="@Model.education">
+    </div>
+    <div class="form-group">
+        <label for="validationDefault08">Gender</label>
+        <input type="text" id="validationDefault08" name="gender" value="@Model.gender">
+    </div>
+    <div class="form-group">
+        <label for="validationDefault09">Hobbies</label>
+        <input type="text" id="validationDefault09" name="hobbies" value="@Model.hobbies">
+    </div>
+    <div class="form-group">
+        <label for="imgupload">Choose Profile Picture</label>
+        <input type="file" class="form-control-file" id="imgupload" name="imgupload">
+    </div>
+    <div class="form-group button-container">
+        <input class="btn btn-primary update-button" type="submit" value="Update" />
+    </div>
+</form>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="18b50a9ad82b4b11a42814568daeb3db" Name="Diagram1">
+        <EntityTypeShape EntityType="FinalProjectModel.User" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinalProjectModel.Item" Width="1.5" PointX="5.25" PointY="7.375" />
+        <EntityTypeShape EntityType="FinalProjectModel.SharedList" Width="1.5" PointX="5.25" PointY="4.25" />
+        <EntityTypeShape EntityType="FinalProjectModel.ShoppingList" Width="1.5" PointX="3" PointY="7.5" />
+        <AssociationConnector Association="FinalProjectModel.FK_Items_ShoppingLists" />
+        <AssociationConnector Association="FinalProjectModel.FK_SharedLists_ShoppingLists" />
+        <AssociationConnector Association="FinalProjectModel.FK_SharedLists_Users" />
+        <AssociationConnector Association="FinalProjectModel.FK_ShoppingLists_Users" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

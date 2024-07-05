@@ -1,0 +1,53 @@
+﻿@model IEnumerable<FinalProject.DTOs.ShoppingListDTO>
+
+@{
+    ViewBag.Title = "ViewList";
+    Layout = "~/Views/Shared/_Template2.cshtml";
+}
+
+<h2>ViewList</h2>
+
+<p>
+    <a href="/Customer/CreateList" class="btn btn-primary">Create List</a>
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.List_Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.User_Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.List_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.C_Date)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.List_Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.User_Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.List_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.C_Date)
+        </td>
+        <td>
+            <a href="/Customer/AddItem/@item.List_Id" class="btn btn-primary">Add Item</a>
+            <a href="/Customer/EditList/@item.List_Id" class="btn btn-primary">Edit List</a>
+            <a href="/Customer/DeleteList/@item.List_Id" class="btn btn-primary">Delete List</a>
+        </td>
+    </tr>
+}
+
+</table>

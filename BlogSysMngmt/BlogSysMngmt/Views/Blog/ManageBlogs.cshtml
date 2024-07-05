@@ -1,0 +1,95 @@
+﻿@model IEnumerable<BlogSysMngmt.DTOs.PostDTO>
+
+@{
+    Layout = "~/Views/Shared/_BlogDashboard.cshtml";
+    ViewBag.Title = "Manage Blogs";
+}
+
+@if (TempData["Msg7"] != null)
+{
+    <div class="alert alert-success" role="alert">@TempData["Msg7"]</div>
+}
+
+<a href="/User/Create" class="btn btn-primary">Create Post</a>
+<hr />
+<div class="row">
+    <form method="post" action="/Blog/Search" class="d-flex">
+        <div class="col-md-3">
+            <input type="text" class="form-control" name="Search" placeholder="Type Title" />
+        </div>
+        <div class="col-md-2">
+            <input type="submit" value="Search" class="btn btn-success" />
+        </div>
+    </form>
+</div>
+<hr />
+
+@foreach (var post in Model)
+{
+    <h2>@post.title</h2>
+    <p>@post.p_content</p>
+    <strong><p>@post.pub_date</p></strong>
+
+    <h3>Comments</h3>
+    <ul>
+        @foreach (var comment in post.Comments)
+        {
+            <li>
+                @comment.c_content by
+                <strong style="color: red;">@comment.User.name</strong>
+            </li>
+        }
+    </ul>
+
+    <h3>Likes</h3>
+    <ul>
+        @foreach (var like in post.Likes)
+        {
+            <li>
+                <span class="badge badge-success" style="border-radius:14px;background-color: forestgreen; color: white; width: 60px; height: 30px;padding-top:8px;">
+                    <strong>@like.count</strong>
+                </span>
+                <a href="User/Like/@like.post_id" class="btn btn-primary btn-sm ml-2" style="height: 30px;">Like</a>
+                <a href="User/Dislike/@like.post_id" class="btn btn-secondary btn-sm ml-1" style="height: 30px;">Dislike</a>
+            </li>
+        }
+    </ul>
+
+    <h3>Tags</h3>
+    <ul>
+        @foreach (var tag in post.PostTags)
+        {
+            <li>
+                @if (tag.tag_name.Equals("Technology"))
+                {
+                    <span class="badge badge-danger" style="border-radius:14px;background-color: red; color: white; width: 87px; height: 30px;padding-top:8px;">
+                        <strong>@tag.tag_name</strong>
+                    </span>
+                }
+                @if (tag.tag_name.Equals("Food Review"))
+                {
+                    <span class="badge badge-danger" style="border-radius:14px;background-color: lawngreen; color: black; width: 87px; height: 30px;padding-top:8px;">
+                        <strong>@tag.tag_name</strong>
+                    </span>
+                }
+                @if (tag.tag_name.Equals("Motor"))
+                {
+                    <span class="badge badge-danger" style="border-radius:14px;background-color: rosybrown; color: white; width: 87px; height: 30px;padding-top:8px;">
+                        <strong>@tag.tag_name</strong>
+                    </span>
+                }
+                @if (tag.tag_name.Equals("Traveling"))
+                {
+                    <span class="badge badge-danger" style="border-radius:14px;background-color: cadetblue; color: white; width: 87px; height: 30px;padding-top:8px;">
+                        <strong>@tag.tag_name</strong>
+                    </span>
+                }
+            </li>
+        }
+    </ul>
+    <hr />
+    <a href="User/Edit/@post.post_id" class="btn btn-primary">Edit</a>
+    <a href="User/Delete/@post.post_id" class="btn btn-danger">Delete</a>
+    <hr />
+}
+

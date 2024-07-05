@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FinalProjectModelStoreContainer" CdmEntityContainer="FinalProjectEntities">
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="FinalProjectModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Items">
+      <EntityTypeMapping TypeName="FinalProjectModel.Item">
+        <MappingFragment StoreEntitySet="Items">
+          <ScalarProperty Name="Estimated_Price" ColumnName="Estimated_Price" />
+          <ScalarProperty Name="IsBought" ColumnName="IsBought" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Item_Name" ColumnName="Item_Name" />
+          <ScalarProperty Name="List_Id" ColumnName="List_Id" />
+          <ScalarProperty Name="Item_Id" ColumnName="Item_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SharedLists">
+      <EntityTypeMapping TypeName="FinalProjectModel.SharedList">
+        <MappingFragment StoreEntitySet="SharedLists">
+          <ScalarProperty Name="Shared_User_Id" ColumnName="Shared_User_Id" />
+          <ScalarProperty Name="List_Id" ColumnName="List_Id" />
+          <ScalarProperty Name="Share_Id" ColumnName="Share_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShoppingLists">
+      <EntityTypeMapping TypeName="FinalProjectModel.ShoppingList">
+        <MappingFragment StoreEntitySet="ShoppingLists">
+          <ScalarProperty Name="C_Date" ColumnName="C_Date" />
+          <ScalarProperty Name="List_Name" ColumnName="List_Name" />
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="List_Id" ColumnName="List_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

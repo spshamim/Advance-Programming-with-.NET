@@ -1,0 +1,39 @@
+﻿
+<h2>SignUp</h2>
+<hr />
+<form method="post">
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <div class="input-group-text" id="btnGroupAddon">User Name</div>
+        </div>
+        <input type="text" class="form-control @(ViewData.ModelState["Username"]?.Errors.Count > 0 ? "is-invalid" : (ViewData.ModelState.ContainsKey("Username") ? "is-valid" : ""))" name="Username" value="@Model.Username" placeholder="Type User Name" aria-label="Input group example" aria-describedby="btnGroupAddon">
+    </div>
+    <small id="nameHelpBlock" class="form-text text-muted">
+        User Name must be 7-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+    </small>
+    <br />
+    <br />
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <div class="input-group-text" id="btnGroupAddon">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </div>
+        <input type="text" class="form-control @(ViewData.ModelState["Email"]?.Errors.Count > 0 ? "is-invalid" : (ViewData.ModelState.ContainsKey("Email") ? "is-valid" : ""))" name="Email" value="@Model.Email" placeholder="Type User Email" aria-label="Input group example" aria-describedby="btnGroupAddon">
+    </div>
+    <small id="emailHelpBlock" class="form-text text-muted">
+        Email must follow valid domain and identity. (i.e. xxxyyy.112233@gmail.com)
+    </small>
+    <br />
+    <br />
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <div class="input-group-text" id="btnGroupAddon">Password&nbsp;&nbsp;&nbsp;</div>
+        </div>
+        <input type="password" class="form-control @(ViewData.ModelState["Password"]?.Errors.Count > 0 ? "is-invalid" : (ViewData.ModelState.ContainsKey("Password") ? "is-valid" : ""))" name="Password" placeholder="Type Password" aria-label="Input group example" aria-describedby="btnGroupAddon">
+    </div>
+    <small id="passwordHelpBlock" class="form-text text-muted">
+        User Password must at least 8 characters long, must contain one special char., one number, one uppercase letter.
+    </small>
+    <br />
+    <br />
+    <input type="submit" value="Sign Up" class="btn btn-primary" />
+</form>

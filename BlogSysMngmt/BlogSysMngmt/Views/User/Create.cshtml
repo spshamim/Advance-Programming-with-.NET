@@ -1,0 +1,48 @@
+﻿@model BlogSysMngmt.DTOs.BlogPostDTO
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_BlogDashboard.cshtml";
+}
+
+<h2>Publish a Blog</h2>
+<hr />
+<form method="post">
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <div class="input-group-text" id="btnGroupAddon">Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </div>
+        <input type="text" class="form-control @(ViewData.ModelState["title"]?.Errors.Count > 0 ? "is-invalid" : (ViewData.ModelState.ContainsKey("title") ? "is-valid" : ""))" name="title" value="@Model.title" placeholder="Title" aria-label="Input group example" aria-describedby="btnGroupAddon">
+    </div>
+    <small id="nameHelpBlock" class="form-text text-muted">
+        Title is required.
+    </small>
+    <br />
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <div class="input-group-text" id="btnGroupAddon">Content&nbsp;&nbsp;&nbsp;</div>
+        </div>
+        <textarea class="form-control @(ViewData.ModelState["p_content"]?.Errors.Count > 0 ? "is-invalid" : (ViewData.ModelState.ContainsKey("p_content") ? "is-valid" : ""))" name="p_content" placeholder="Type Content" aria-label="Input group example" aria-describedby="btnGroupAddon" style="height: 200px; width: 100%;">@Model.p_content</textarea>
+    </div>
+    <small id="emailHelpBlock" class="form-text text-muted">
+        Content is required.
+    </small>
+    <br />
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <div class="input-group-text" id="btnGroupAddon">Select Tag</div>
+        </div>
+        <select id="inputState" name="tag_name" class="form-control @(ViewData.ModelState["tag_name"]?.Errors.Count > 0 ? "is-invalid" : (ViewData.ModelState.ContainsKey("tag_name") ? "is-valid" : ""))">
+            <option disabled @(Model.tag_name == null ? "selected" : "")>Choose...</option>
+            <option  @(Model.tag_name == "Technology" ? "selected" : "")>Technology</option>
+            <option  @(Model.tag_name == "Food Review" ? "selected" : "")>Food Review</option>
+            <option  @(Model.tag_name == "Traveling" ? "selected" : "")>Traveling</option>
+            <option  @(Model.tag_name == "Motor" ? "selected" : "")>Motor</option>
+        </select>
+    </div>
+    <small id="passwordHelpBlock" class="form-text text-muted">
+        Select a tag.
+    </small>
+    <br />
+    <input type="submit" value="Publish" class="btn btn-success" />
+</form>

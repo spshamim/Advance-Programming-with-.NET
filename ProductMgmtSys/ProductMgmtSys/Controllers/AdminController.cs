@@ -48,13 +48,8 @@ namespace ProductMgmtSys.Controllers
             else
             {
                 var orderproducts = data.OrderProducts;
-                /*
-                    accessing navigation property, OrderProducts containing the Ordered Quantity
-                    orderproducts containing full OrderProducts table
-                */
                 foreach (var item in orderproducts)
                 {
-                    // OrderProducts has navigation property of Products table
                     item.Product.Qty -= item.Qty;
                     
                     //var p = db.Products.Find(item.PId);
@@ -90,20 +85,10 @@ namespace ProductMgmtSys.Controllers
             var data = (from dd in db.OrderProducts
                        where dd.OId == id
                        select dd).ToList();
-            /*
-                we want to convert OrderProduct(EF) to OrderProductDTO, but DTO doesn't have access to the nav. property of EF class
-                so we want to access the navigation property of OrderProduct(EF) class
-            */
 
             var config = new MapperConfiguration(cfg => {
                 cfg.CreateMap<OrderProduct, OrderProductDTO>(); // all will map except ProductDTO property, this is non-primitive
                 cfg.CreateMap<Product, ProductDTO>(); // Product to ProductDTO -> non-primitive convert
-
-                /*
-                    in OrderProduct.cs      -> public virtual Product Product { get; set; }
-                    in OrderProductDTO.cs   -> public virtual ProductDTO Product { get; set; }
-                    SO need to convert Product to ProductDTO
-                */
             });
             var mapper = new Mapper(config);
             var pd = mapper.Map<List<OrderProductDTO>>(data);

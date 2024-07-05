@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="FinalProjectModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Items">
+          <Key>
+            <PropertyRef Name="Item_Id" />
+          </Key>
+          <Property Name="Item_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="List_Id" Type="int" Nullable="false" />
+          <Property Name="Item_Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Quantity" Type="int" Nullable="false" />
+          <Property Name="Category" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="IsBought" Type="varchar" MaxLength="50" />
+          <Property Name="Estimated_Price" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SharedLists">
+          <Key>
+            <PropertyRef Name="Share_Id" />
+          </Key>
+          <Property Name="Share_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="List_Id" Type="int" Nullable="false" />
+          <Property Name="Shared_User_Id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ShoppingLists">
+          <Key>
+            <PropertyRef Name="List_Id" />
+          </Key>
+          <Property Name="List_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="User_Id" Type="int" Nullable="false" />
+          <Property Name="List_Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="C_Date" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="User_Id" />
+          </Key>
+          <Property Name="User_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Username" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Password" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Type" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <Association Name="FK_Items_ShoppingLists">
+          <End Role="ShoppingLists" Type="Self.ShoppingLists" Multiplicity="1" />
+          <End Role="Items" Type="Self.Items" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ShoppingLists">
+              <PropertyRef Name="List_Id" />
+            </Principal>
+            <Dependent Role="Items">
+              <PropertyRef Name="List_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SharedLists_ShoppingLists">
+          <End Role="ShoppingLists" Type="Self.ShoppingLists" Multiplicity="1" />
+          <End Role="SharedLists" Type="Self.SharedLists" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ShoppingLists">
+              <PropertyRef Name="List_Id" />
+            </Principal>
+            <Dependent Role="SharedLists">
+              <PropertyRef Name="List_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SharedLists_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="SharedLists" Type="Self.SharedLists" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="User_Id" />
+            </Principal>
+            <Dependent Role="SharedLists">
+              <PropertyRef Name="Shared_User_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ShoppingLists_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="ShoppingLists" Type="Self.ShoppingLists" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="User_Id" />
+            </Principal>
+            <Dependent Role="ShoppingLists">
+              <PropertyRef Name="User_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="FinalProjectModelStoreContainer">
+          <EntitySet Name="Items" EntityType="Self.Items" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SharedLists" EntityType="Self.SharedLists" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ShoppingLists" EntityType="Self.ShoppingLists" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Items_ShoppingLists" Association="Self.FK_Items_ShoppingLists">
+            <End Role="ShoppingLists" EntitySet="ShoppingLists" />
+            <End Role="Items" EntitySet="Items" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SharedLists_ShoppingLists" Association="Self.FK_SharedLists_ShoppingLists">
+            <End Role="ShoppingLists" EntitySet="ShoppingLists" />
+            <End Role="SharedLists" EntitySet="SharedLists" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SharedLists_Users" Association="Self.FK_SharedLists_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="SharedLists" EntitySet="SharedLists" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ShoppingLists_Users" Association="Self.FK_ShoppingLists_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="ShoppingLists" EntitySet="ShoppingLists" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="FinalProjectModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="User_Id" />
+          </Key>
+          <Property Name="User_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Type" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="SharedLists" Relationship="FinalProjectModel.FK_SharedLists_Users" FromRole="User" ToRole="SharedList" />
+          <NavigationProperty Name="ShoppingLists" Relationship="FinalProjectModel.FK_ShoppingLists_Users" FromRole="User" ToRole="ShoppingList" />
+        </EntityType>
+        <EntityContainer Name="FinalProjectEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Users" EntityType="Self.User" />
+          <EntitySet Name="Items" EntityType="FinalProjectModel.Item" />
+          <EntitySet Name="SharedLists" EntityType="FinalProjectModel.SharedList" />
+          <EntitySet Name="ShoppingLists" EntityType="FinalProjectModel.ShoppingList" />
+          <AssociationSet Name="FK_Items_ShoppingLists" Association="FinalProjectModel.FK_Items_ShoppingLists">
+            <End Role="ShoppingList" EntitySet="ShoppingLists" />
+            <End Role="Item" EntitySet="Items" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SharedLists_ShoppingLists" Association="FinalProjectModel.FK_SharedLists_ShoppingLists">
+            <End Role="ShoppingList" EntitySet="ShoppingLists" />
+            <End Role="SharedList" EntitySet="SharedLists" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SharedLists_Users" Association="FinalProjectModel.FK_SharedLists_Users">
+            <End Role="User" EntitySet="Users" />
+            <End Role="SharedList" EntitySet="SharedLists" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ShoppingLists_Users" Association="FinalProjectModel.FK_ShoppingLists_Users">
+            <End Role="User" EntitySet="Users" />
+            <End Role="ShoppingList" EntitySet="ShoppingLists" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Item">
+          <Key>
+            <PropertyRef Name="Item_Id" />
+          </Key>
+          <Property Name="Item_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="List_Id" Type="Int32" Nullable="false" />
+          <Property Name="Item_Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Quantity" Type="Int32" Nullable="false" />
+          <Property Name="Category" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="IsBought" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Estimated_Price" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <NavigationProperty Name="ShoppingList" Relationship="FinalProjectModel.FK_Items_ShoppingLists" FromRole="Item" ToRole="ShoppingList" />
+        </EntityType>
+        <EntityType Name="SharedList">
+          <Key>
+            <PropertyRef Name="Share_Id" />
+          </Key>
+          <Property Name="Share_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="List_Id" Type="Int32" Nullable="false" />
+          <Property Name="Shared_User_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="ShoppingList" Relationship="FinalProjectModel.FK_SharedLists_ShoppingLists" FromRole="SharedList" ToRole="ShoppingList" />
+          <NavigationProperty Name="User" Relationship="FinalProjectModel.FK_SharedLists_Users" FromRole="SharedList" ToRole="User" />
+        </EntityType>
+        <EntityType Name="ShoppingList">
+          <Key>
+            <PropertyRef Name="List_Id" />
+          </Key>
+          <Property Name="List_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="User_Id" Type="Int32" Nullable="false" />
+          <Property Name="List_Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="C_Date" Type="DateTime" Nullable="false" Precision="0" />
+          <NavigationProperty Name="Items" Relationship="FinalProjectModel.FK_Items_ShoppingLists" FromRole="ShoppingList" ToRole="Item" />
+          <NavigationProperty Name="SharedLists" Relationship="FinalProjectModel.FK_SharedLists_ShoppingLists" FromRole="ShoppingList" ToRole="SharedList" />
+          <NavigationProperty Name="User" Relationship="FinalProjectModel.FK_ShoppingLists_Users" FromRole="ShoppingList" ToRole="User" />
+        </EntityType>
+        <Association Name="FK_Items_ShoppingLists">
+          <End Type="FinalProjectModel.ShoppingList" Role="ShoppingList" Multiplicity="1" />
+          <End Type="FinalProjectModel.Item" Role="Item" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ShoppingList">
+              <PropertyRef Name="List_Id" />
+            </Principal>
+            <Dependent Role="Item">
+              <PropertyRef Name="List_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SharedLists_ShoppingLists">
+          <End Type="FinalProjectModel.ShoppingList" Role="ShoppingList" Multiplicity="1" />
+          <End Type="FinalProjectModel.SharedList" Role="SharedList" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ShoppingList">
+              <PropertyRef Name="List_Id" />
+            </Principal>
+            <Dependent Role="SharedList">
+              <PropertyRef Name="List_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SharedLists_Users">
+          <End Type="FinalProjectModel.User" Role="User" Multiplicity="1" />
+          <End Type="FinalProjectModel.SharedList" Role="SharedList" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="User_Id" />
+            </Principal>
+            <Dependent Role="SharedList">
+              <PropertyRef Name="Shared_User_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ShoppingLists_Users">
+          <End Type="FinalProjectModel.User" Role="User" Multiplicity="1" />
+          <End Type="FinalProjectModel.ShoppingList" Role="ShoppingList" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="User_Id" />
+            </Principal>
+            <Dependent Role="ShoppingList">
+              <PropertyRef Name="User_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="FinalProjectModelStoreContainer" CdmEntityContainer="FinalProjectEntities">
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="FinalProjectModel.User">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+                <ScalarProperty Name="Username" ColumnName="Username" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Items">
+            <EntityTypeMapping TypeName="FinalProjectModel.Item">
+              <MappingFragment StoreEntitySet="Items">
+                <ScalarProperty Name="Estimated_Price" ColumnName="Estimated_Price" />
+                <ScalarProperty Name="IsBought" ColumnName="IsBought" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="Item_Name" ColumnName="Item_Name" />
+                <ScalarProperty Name="List_Id" ColumnName="List_Id" />
+                <ScalarProperty Name="Item_Id" ColumnName="Item_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SharedLists">
+            <EntityTypeMapping TypeName="FinalProjectModel.SharedList">
+              <MappingFragment StoreEntitySet="SharedLists">
+                <ScalarProperty Name="Shared_User_Id" ColumnName="Shared_User_Id" />
+                <ScalarProperty Name="List_Id" ColumnName="List_Id" />
+                <ScalarProperty Name="Share_Id" ColumnName="Share_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ShoppingLists">
+            <EntityTypeMapping TypeName="FinalProjectModel.ShoppingList">
+              <MappingFragment StoreEntitySet="ShoppingLists">
+                <ScalarProperty Name="C_Date" ColumnName="C_Date" />
+                <ScalarProperty Name="List_Name" ColumnName="List_Name" />
+                <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+                <ScalarProperty Name="List_Id" ColumnName="List_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

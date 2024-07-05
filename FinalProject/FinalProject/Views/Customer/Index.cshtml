@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Template2.cshtml";
+}
+
+@if (TempData["Msg"] != null)
+{
+    <div class="alert alert-success" role="alert">@TempData["Msg"]</div>
+}
+
+<h2>Customer Dashboard</h2>
+

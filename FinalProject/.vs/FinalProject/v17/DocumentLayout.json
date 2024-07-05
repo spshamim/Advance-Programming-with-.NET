@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FinalProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D50BBCDB-95A8-46AB-9904-CC980E745FEC}|FinalProject\\FinalProject.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\finalproject\\finalproject\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50BBCDB-95A8-46AB-9904-CC980E745FEC}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50BBCDB-95A8-46AB-9904-CC980E745FEC}|FinalProject\\FinalProject.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\finalproject\\finalproject\\views\\customer\\additem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D50BBCDB-95A8-46AB-9904-CC980E745FEC}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\customer\\additem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50BBCDB-95A8-46AB-9904-CC980E745FEC}|FinalProject\\FinalProject.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\finalproject\\finalproject\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50BBCDB-95A8-46AB-9904-CC980E745FEC}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50BBCDB-95A8-46AB-9904-CC980E745FEC}|FinalProject\\FinalProject.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\finalproject\\finalproject\\views\\shared\\_template2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D50BBCDB-95A8-46AB-9904-CC980E745FEC}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_template2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50BBCDB-95A8-46AB-9904-CC980E745FEC}|FinalProject\\FinalProject.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\finalproject\\finalproject\\views\\customer\\createlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D50BBCDB-95A8-46AB-9904-CC980E745FEC}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\customer\\createlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50BBCDB-95A8-46AB-9904-CC980E745FEC}|FinalProject\\FinalProject.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\finalproject\\finalproject\\views\\customer\\listdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D50BBCDB-95A8-46AB-9904-CC980E745FEC}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\customer\\listdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50BBCDB-95A8-46AB-9904-CC980E745FEC}|FinalProject\\FinalProject.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\finalproject\\finalproject\\views\\customer\\viewlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D50BBCDB-95A8-46AB-9904-CC980E745FEC}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\customer\\viewlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50BBCDB-95A8-46AB-9904-CC980E745FEC}|FinalProject\\FinalProject.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\finalproject\\finalproject\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50BBCDB-95A8-46AB-9904-CC980E745FEC}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddItem.cshtml",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FinalProject\\FinalProject\\Views\\Customer\\AddItem.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Customer\\AddItem.cshtml",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FinalProject\\FinalProject\\Views\\Customer\\AddItem.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Customer\\AddItem.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T09:36:23.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Template2.cshtml",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FinalProject\\FinalProject\\Views\\Shared\\_Template2.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_Template2.cshtml",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FinalProject\\FinalProject\\Views\\Shared\\_Template2.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Shared\\_Template2.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T09:26:54.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FinalProject\\FinalProject\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "FinalProject\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FinalProject\\FinalProject\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "FinalProject\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA0wBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T09:11:17.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateList.cshtml",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FinalProject\\FinalProject\\Views\\Customer\\CreateList.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Customer\\CreateList.cshtml",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FinalProject\\FinalProject\\Views\\Customer\\CreateList.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Customer\\CreateList.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T08:53:23.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ViewList.cshtml",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FinalProject\\FinalProject\\Views\\Customer\\ViewList.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Customer\\ViewList.cshtml",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FinalProject\\FinalProject\\Views\\Customer\\ViewList.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Customer\\ViewList.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T08:48:31.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ListDetails.cshtml",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FinalProject\\FinalProject\\Views\\Customer\\ListDetails.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Customer\\ListDetails.cshtml",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FinalProject\\FinalProject\\Views\\Customer\\ListDetails.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Customer\\ListDetails.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T08:39:14.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FinalProject\\FinalProject\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FinalProject\\FinalProject\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "FinalProject\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAA0wCUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:23:17.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemDTO.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FinalProject\\FinalProject\\DTOs\\ItemDTO.cs",
+              "RelativeDocumentMoniker": "FinalProject\\DTOs\\ItemDTO.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\FinalProject\\FinalProject\\DTOs\\ItemDTO.cs",
+              "RelativeToolTip": "FinalProject\\DTOs\\ItemDTO.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA4wBgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T09:36:37.085Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

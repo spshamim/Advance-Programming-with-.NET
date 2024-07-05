@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\BlogSysMngmt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA78365A-0F6B-4B0A-8EAF-204B338AE506}|BlogSysMngmt\\BlogSysMngmt.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\blogsysmngmt\\blogsysmngmt\\dtos\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA78365A-0F6B-4B0A-8EAF-204B338AE506}|BlogSysMngmt\\BlogSysMngmt.csproj|solutionrelative:blogsysmngmt\\dtos\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA78365A-0F6B-4B0A-8EAF-204B338AE506}|BlogSysMngmt\\BlogSysMngmt.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\blogsysmngmt\\blogsysmngmt\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA78365A-0F6B-4B0A-8EAF-204B338AE506}|BlogSysMngmt\\BlogSysMngmt.csproj|solutionrelative:blogsysmngmt\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA78365A-0F6B-4B0A-8EAF-204B338AE506}|BlogSysMngmt\\BlogSysMngmt.csproj|D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\BlogSysMngmt\\blogsysmngmt\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA78365A-0F6B-4B0A-8EAF-204B338AE506}|BlogSysMngmt\\BlogSysMngmt.csproj|solutionrelative:blogsysmngmt\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA78365A-0F6B-4B0A-8EAF-204B338AE506}|BlogSysMngmt\\BlogSysMngmt.csproj|d:\\aiub\\10. aiub summer 24-25\\advance dot net\\put files here\\blogsysmngmt\\blogsysmngmt\\views\\blog\\manageblogs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA78365A-0F6B-4B0A-8EAF-204B338AE506}|BlogSysMngmt\\BlogSysMngmt.csproj|solutionrelative:blogsysmngmt\\views\\blog\\manageblogs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA78365A-0F6B-4B0A-8EAF-204B338AE506}|BlogSysMngmt\\BlogSysMngmt.csproj|D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\BlogSysMngmt\\blogsysmngmt\\views\\blog\\viewblogs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA78365A-0F6B-4B0A-8EAF-204B338AE506}|BlogSysMngmt\\BlogSysMngmt.csproj|solutionrelative:blogsysmngmt\\views\\blog\\viewblogs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA78365A-0F6B-4B0A-8EAF-204B338AE506}|BlogSysMngmt\\BlogSysMngmt.csproj|D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\BlogSysMngmt\\blogsysmngmt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA78365A-0F6B-4B0A-8EAF-204B338AE506}|BlogSysMngmt\\BlogSysMngmt.csproj|solutionrelative:blogsysmngmt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignUpDTO.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\BlogSysMngmt\\BlogSysMngmt\\DTOs\\SignUpDTO.cs",
+              "RelativeDocumentMoniker": "BlogSysMngmt\\DTOs\\SignUpDTO.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\BlogSysMngmt\\BlogSysMngmt\\DTOs\\SignUpDTO.cs",
+              "RelativeToolTip": "BlogSysMngmt\\DTOs\\SignUpDTO.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwBoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T05:57:33.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\BlogSysMngmt\\BlogSysMngmt\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "BlogSysMngmt\\DTOs\\UserDTO.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\BlogSysMngmt\\BlogSysMngmt\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "BlogSysMngmt\\DTOs\\UserDTO.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAmwBYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T05:55:15.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\BlogSysMngmt\\BlogSysMngmt\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "BlogSysMngmt\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\BlogSysMngmt\\BlogSysMngmt\\Controllers\\UserController.cs",
+              "RelativeToolTip": "BlogSysMngmt\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAA1wFsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T04:51:02.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ViewBlogs.cshtml",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\BlogSysMngmt\\BlogSysMngmt\\Views\\Blog\\ViewBlogs.cshtml",
+              "RelativeDocumentMoniker": "BlogSysMngmt\\Views\\Blog\\ViewBlogs.cshtml",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\BlogSysMngmt\\BlogSysMngmt\\Views\\Blog\\ViewBlogs.cshtml",
+              "RelativeToolTip": "BlogSysMngmt\\Views\\Blog\\ViewBlogs.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T04:50:47.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManageBlogs.cshtml",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\BlogSysMngmt\\BlogSysMngmt\\Views\\Blog\\ManageBlogs.cshtml",
+              "RelativeDocumentMoniker": "BlogSysMngmt\\Views\\Blog\\ManageBlogs.cshtml",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\BlogSysMngmt\\BlogSysMngmt\\Views\\Blog\\ManageBlogs.cshtml",
+              "RelativeToolTip": "BlogSysMngmt\\Views\\Blog\\ManageBlogs.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T04:50:26.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\BlogSysMngmt\\BlogSysMngmt\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BlogSysMngmt\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\AIUB\\10. AIUB Summer 24-25\\Advance Dot NET\\Put Files Here\\BlogSysMngmt\\BlogSysMngmt\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BlogSysMngmt\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T04:49:03.258Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

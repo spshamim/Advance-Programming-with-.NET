@@ -1,0 +1,50 @@
+﻿@model IEnumerable<FinalProject.DTOs.ShoppingListItemDTO>
+
+@{
+    ViewBag.Title = "ListDetails";
+    Layout = "~/Views/Shared/_Template2.cshtml";
+}
+<div class="row">
+    <form method="post" action="/Customer/Search" class="d-flex">
+        <div class="col-md-3">
+            <input type="text" class="form-control" name="Search" placeholder="Input type" />
+        </div>
+        <div class="col-md-2">
+            <input type="submit" value="Search" class="btn btn-success" />
+        </div>
+    </form>
+</div>
+<hr />
+
+<h2>Shopping Lists with Items</h2>
+
+@foreach (var shoppingList in Model)
+{
+    <div>
+        <h3>List Name : @shoppingList.List_Name</h3>
+        <p>Created Date: @shoppingList.C_Date.ToShortDateString()</p>
+
+        <ul>
+            @foreach (var item in shoppingList.Items)
+            {
+                <li>
+                    <strong>Item Name:</strong> @item.Item_Name <br />
+                    <strong>Quantity:</strong> @item.Quantity <br />
+                    <strong>Category:</strong> @item.Category <br />
+                    <strong>Status:</strong>
+                    @item.IsBought
+                    @if (@item.IsBought.Equals("Unbought"))
+                    {
+                        <a href="@Url.Action("MarkAsBought", "Customer", new { listId = shoppingList.List_Id, itemId = item.Item_Id })" class="btn btn-success">Bought</a>
+                    }
+                    <br />
+                    <strong>Estimated Price:</strong> @item.Estimated_Price.ToString("C")
+
+                    <br />
+                </li>
+            }
+        </ul>
+        <strong>Total Estimated Price:</strong> @shoppingList.Items.Sum(i => i.Estimated_Price).ToString("C")
+    </div>
+    <hr />
+}
